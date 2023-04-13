@@ -103,12 +103,12 @@
 			children = (
 				017A7A4529E7F6FE002CD77C /* AppDelegate.swift */,
 				017A7A4729E7F6FE002CD77C /* SceneDelegate.swift */,
+				01383ADE29E7FA6400337818 /* Game.swift */,
 				017A7A4929E7F6FE002CD77C /* ViewController.swift */,
 				017A7A4B29E7F6FE002CD77C /* Main.storyboard */,
 				017A7A4E29E7F6FE002CD77C /* Assets.xcassets */,
 				017A7A5029E7F6FE002CD77C /* LaunchScreen.storyboard */,
 				017A7A5329E7F6FE002CD77C /* Info.plist */,
-				01383ADE29E7FA6400337818 /* Game.swift */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";

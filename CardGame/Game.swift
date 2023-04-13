@@ -2,35 +2,48 @@
 //  Game.swift
 //  CardGame
 //
-//  Created by EastOS on 2023/4/13.
+//  Created by EastOS on 2023/4/11.
 //
 
 import Foundation
-
-struct Card{
-    var isFaceup = false    //  是否翻起
-    var isSet = false   //
-    var isMatched = false
-    var isHalfMatched = false
-    var groupID: Int
-}
-
 class Game{
-    var cards = [Card]()
+    var cards = [Card]()    // several groups of card in game
     
-    var halfmatchGroupID: Int?
-    var sumOfMatchedCard = 0
-    var sumOfMatchedGroup = 0
+    //  to rec the status of the game
+    var halfMatchedGroupID: Int?    // 不完全展开-halfMatched
+    var sumOfMatchedCard = 0        // 某组中已翻开的匹配的牌的个数，为4时该组完成
+    var sumOfMarchedGroup = 0       // 已完成的牌组数，为3时游戏结束
     
-    init(numberOfGoupsOfCards: Int){
-        for _ in 1...numberOfGoupsOfCards{
+    init(numberOfGroupOfCards: Int) {
+        for _ in 1...numberOfGroupOfCards{
+            // _指代变量； 1...3表示[1，3]，1..<3 表示[1,3)
             let card = Card()
-            cards += [card,card,card,card]
+            cards += [card,card,card,card]  // 将card对象复制四份作为一组，保证一组内的GroupID是一样的
         }
     }
-    func chooseCard(at index: Int){
+    
+    // what happens after one card is flipped
+    func chooseCard(at index: Int){     // 翻牌
         if !cards[index].isHalfMatched,!cards[index].isMatched{
             
         }
+    }
+}
+
+struct Card{
+    var isFaceup = false    // 是否翻起
+    var isMatched = false   // 是否匹配
+    var isHalfMatched = false   // 是否半匹配
+    var groupID: Int
+    
+    static var groupIDFactory = -1
+    
+    static func getUniqueGroupID() -> Int{
+        groupIDFactory += 1
+        return groupIDFactory
+    }
+    
+    init(){
+        groupID = Card.getUniqueGroupID()
     }
 }
