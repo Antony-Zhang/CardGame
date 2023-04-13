@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var characters = ["春","暧","花","开","万","紫","千","红","风","和","日","丽"]
     
     // 组件引用
-    @IBOutlet weak var Buttons: UIStackView!
     @IBOutlet var cardButtons: [UIButton]!
     @IBOutlet weak var flipCountLable: UILabel!
     
@@ -30,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBAction func touchCard(sender:UIButton){    // 翻牌，调用chooseCard（）
         //sender指向触发该方法的对象
-        
+        sender
     }
     func updateViewFromModel(){     // 翻的牌与前面的牌是否构成同组关系
         
