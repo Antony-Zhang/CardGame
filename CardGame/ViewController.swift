@@ -57,6 +57,7 @@ class ViewController: UIViewController {
             mapsReg.append((buttonID,cardID))
             for reg in mapsReg{
                 cardButtons[reg.randomID].setTitle("🌟", for: .normal)
+                cardButtons[reg.randomID].isEnabled = false     //  使失效，不再接受点击
                 cardButtons[reg.randomID].backgroundColor = UIColor.black
             }
             mapsReg.removeAll() //  清空寄存器
@@ -100,6 +101,7 @@ class ViewController: UIViewController {
         for index in 0..<characters.count{
             cardButtons[index].setTitle("🇨🇳", for: .normal)
             cardButtons[index].backgroundColor = UIColor.orange
+            cardButtons[index].isEnabled = true
         }
         //  清空容器
         mapsReg.removeAll()
