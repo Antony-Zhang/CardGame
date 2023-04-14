@@ -73,9 +73,7 @@ class ViewController: UIViewController {
             cardButtons[buttonID].backgroundColor = UIColor.white   // 修改按钮背景为white
             mapsReg.append((buttonID,cardID))
         }
-        
 //        game.chooseCard(at: cardID, reg: &mapsReg)   // 调用chooseCard（）
-        
     }
     
     // 翻的牌与前面的牌是否构成同组关系
@@ -91,10 +89,33 @@ class ViewController: UIViewController {
         }
     }
     
+    // 重开洗牌
+    @IBAction func touchRemake(_ sender:UIButton){
+        flipCount = 0
+        completedGroup = 0
+        flipCountLable.text = "点击次数"
+        victoryLable.isHidden = true
+        randomIDs = (0...characters.count-1).shuffled() //  再次乱序
+        //  盖上所有牌
+        for index in 0..<characters.count{
+            cardButtons[index].setTitle("🇨🇳", for: .normal)
+            cardButtons[index].backgroundColor = UIColor.orange
+        }
+        //  清空容器
+        mapsReg.removeAll()
+        map_Characters.removeAll()
+        
+        //  重新初始化
+        for index in 0..<characters.count{
+            map_Characters.append((randomIDs[index],index))
+        }
+        
+    }
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         victoryLable.isHidden = true;
-        // 洗牌
+        //  map赋值
         for index in 0..<characters.count{
             map_Characters.append((randomIDs[index],index))
         }
