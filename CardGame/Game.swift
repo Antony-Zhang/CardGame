@@ -23,8 +23,11 @@ class Game{
     }
     
     // what happens after one card is flipped
-    func chooseCard(at index: Int){     // 翻牌
+    func chooseCard(at index: Int){         // 翻牌
+        cards[index].isFaceup = true
         if !cards[index].isHalfMatched,!cards[index].isMatched{
+            // 未匹配成功时
+            sumOfMatchedCard += 1
             
         }
     }

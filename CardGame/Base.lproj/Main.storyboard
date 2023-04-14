@@ -36,6 +36,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmY-zx-xiY"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkY-ec-c0R"/>
                                                 </connections>
                                             </button>
@@ -46,6 +47,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yiD-1i-izT"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2SY-ep-uLt"/>
                                                 </connections>
                                             </button>
@@ -56,6 +58,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3SJ-ap-Osn"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXJ-jd-QQx"/>
                                                 </connections>
                                             </button>
@@ -66,6 +69,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQ1-Iy-nLS"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uou-6X-fmI"/>
                                                 </connections>
                                             </button>
@@ -81,6 +85,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIC-k6-46n"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5X-j5-7bb"/>
                                                 </connections>
                                             </button>
@@ -91,6 +96,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9T3-12-uWJ"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pQ2-QL-FMi"/>
                                                 </connections>
                                             </button>
@@ -101,6 +107,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jS8-It-Rpp"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1S-lR-aM4"/>
                                                 </connections>
                                             </button>
@@ -111,6 +118,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTK-Wz-KSp"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wef-IS-tDR"/>
                                                 </connections>
                                             </button>
@@ -126,6 +134,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5D2-1Y-4Os"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z9d-m4-X97"/>
                                                 </connections>
                                             </button>
@@ -136,6 +145,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xCK-B8-WEB"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGd-Ri-RbP"/>
                                                 </connections>
                                             </button>
@@ -146,6 +156,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcI-Fy-Je8"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kGo-5w-1xd"/>
                                                 </connections>
                                             </button>
@@ -156,6 +167,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ovf-jf-s7b"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P1g-T2-q0Z"/>
                                                 </connections>
                                             </button>
@@ -171,6 +183,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsR-c7-XhE"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PX5-UL-8sq"/>
                                                 </connections>
                                             </button>
@@ -181,6 +194,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ou8-DD-3CZ"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vXL-5e-Zbq"/>
                                                 </connections>
                                             </button>
@@ -191,6 +205,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="15k-xJ-6fP"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0So-DZ-jfw"/>
                                                 </connections>
                                             </button>
@@ -201,6 +216,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bYZ-9U-tmw"/>
                                                     <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pfp-ca-Kyb"/>
                                                 </connections>
                                             </button>
