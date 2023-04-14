@@ -23,17 +23,23 @@ class Game{
     }
     
     // what happens after one card is flipped
-    func chooseCard(at index: Int){     // 翻牌
-        if !cards[index].isHalfMatched,!cards[index].isMatched{
-            
-        }
-    }
+//    func chooseCard(at index: Int, reg mapsReg: inout [(randomID: Int, cardID: Int)]){         // 翻牌
+//        //  inout关键字表示引用传递
+//        cards[index].isFaceup = true
+        
+        
+//        if !cards[index].isHalfMatched,!cards[index].isMatched{
+//            // 未匹配成功时
+//            sumOfMatchedCard += 1
+//
+//        }
+//    }
 }
 
 struct Card{
-    var isFaceup = false    // 是否翻起
-    var isMatched = false   // 是否匹配
-    var isHalfMatched = false   // 是否半匹配
+//    var isFaceup = false    // 是否翻起
+//    var isMatched = false   // 是否匹配
+//    var isHalfMatched = false   // 是否半匹配
     var groupID: Int
     
     static var groupIDFactory = -1
