@@ -13,16 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var flipCountLable: UILabel!
     //@IBOutlet weak var nationalFlag: UILabel!
     @IBOutlet weak var victoryLable: UILabel!
-   
+    
+    //  属性观察
     var flipCount: Int = 0{
-        didSet{     // 【属性观察者】
+        didSet{
             flipCountLable.text = "你已点击：\(flipCount)次"
         }
     }
-    // 完成的组数
-    var completedGroup: Int = 0{
+    var completedGroup: Int = 0{    // 完成的组数
         didSet{
-            if(oldValue == 4){
+            if(oldValue == 3){
                 victoryLable.isHidden = false
             }
         }
@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     
     // 翻牌
     @IBAction func touchCard(_ sender:UIButton){
+        flipCount += 1
         let buttonID = cardButtons.firstIndex(of: sender)!   // 等效于randomID
             //firstIndex()返回参数of在数组中的索引值
         var cardID = 0
@@ -51,8 +52,8 @@ class ViewController: UIViewController {
             }
         }
         
-        
         if(isSameGoup((buttonID,cardID)) && mapsReg.count == 3){           // 若已经点击了3个同组按钮
+            completedGroup += 1
             mapsReg.append((buttonID,cardID))
             for reg in mapsReg{
                 cardButtons[reg.randomID].setTitle("🌟", for: .normal)
