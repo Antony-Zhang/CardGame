@@ -37,7 +37,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmY-zx-xiY"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkY-ec-c0R"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hL8-cZ-P8Y">
@@ -48,7 +47,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yiD-1i-izT"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2SY-ep-uLt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7H-td-wlo">
@@ -59,7 +57,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3SJ-ap-Osn"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXJ-jd-QQx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1G-pO-XB2">
@@ -70,7 +67,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQ1-Iy-nLS"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uou-6X-fmI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -86,7 +82,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIC-k6-46n"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5X-j5-7bb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u93-NK-MTA">
@@ -97,7 +92,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9T3-12-uWJ"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pQ2-QL-FMi"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdb-jh-V8J">
@@ -108,7 +102,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jS8-It-Rpp"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1S-lR-aM4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MB8-Ny-PYb">
@@ -119,7 +112,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTK-Wz-KSp"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wef-IS-tDR"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -135,7 +127,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5D2-1Y-4Os"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z9d-m4-X97"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuB-2F-odb">
@@ -146,7 +137,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xCK-B8-WEB"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGd-Ri-RbP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXn-AT-QPC">
@@ -157,7 +147,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcI-Fy-Je8"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kGo-5w-1xd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yI9-KW-JmK">
@@ -168,7 +157,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ovf-jf-s7b"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P1g-T2-q0Z"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -184,7 +172,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsR-c7-XhE"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PX5-UL-8sq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLA-jz-Ed4">
@@ -195,7 +182,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ou8-DD-3CZ"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vXL-5e-Zbq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oc-vZ-sTQ">
@@ -206,7 +192,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="15k-xJ-6fP"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0So-DZ-jfw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6U-Jd-uKZ">
@@ -217,7 +202,6 @@
                                                 <state key="normal" title="🇨🇳"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bYZ-9U-tmw"/>
-                                                    <action selector="touchCardWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pfp-ca-Kyb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -225,9 +209,9 @@
                                 </subviews>
                             </stackView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Good Job!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTg-th-qL4">
-                                <rect key="frame" x="83" y="532" width="227" height="58"/>
+                                <rect key="frame" x="53" y="537" width="286" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
