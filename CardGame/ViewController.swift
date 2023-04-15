@@ -67,14 +67,16 @@ class ViewController: UIViewController {
                 for reg in mapsReg{
                     cardButtons[reg.randomID].setTitle("🇨🇳", for: .normal)
                     cardButtons[reg.randomID].backgroundColor = UIColor.orange
+                    cardButtons[reg.randomID].isEnabled = true  //  恢复
                 }
                 mapsReg.removeAll() //  清空寄存器
             }
             cardButtons[buttonID].setTitle(characters[cardID], for: .normal)    // 修改文字
+            cardButtons[buttonID].setTitleColor(UIColor.black, for: .normal)
             cardButtons[buttonID].backgroundColor = UIColor.white   // 修改按钮背景为white
+            cardButtons[buttonID].isEnabled = false     //  暂时失效
             mapsReg.append((buttonID,cardID))
         }
-//        game.chooseCard(at: cardID, reg: &mapsReg)   // 调用chooseCard（）
     }
     
     // 翻的牌与前面的牌是否构成同组关系
