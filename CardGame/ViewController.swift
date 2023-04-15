@@ -11,7 +11,6 @@ class ViewController: UIViewController {
     // 组件引用
     @IBOutlet var cardButtons: [UIButton]!
     @IBOutlet weak var flipCountLable: UILabel!
-    //@IBOutlet weak var nationalFlag: UILabel!
     @IBOutlet weak var victoryLable: UILabel!
     
     //  属性观察
@@ -23,6 +22,7 @@ class ViewController: UIViewController {
     var completedGroup: Int = 0{    // 完成的组数
         didSet{
             if(oldValue == 3){
+                flipCountLable.isHidden = true
                 victoryLable.isHidden = false
             }
         }
@@ -96,8 +96,9 @@ class ViewController: UIViewController {
     @IBAction func touchRemake(_ sender:UIButton){
         flipCount = 0
         completedGroup = 0
-        flipCountLable.text = "点击次数"
         victoryLable.isHidden = true
+        flipCountLable.text = "点击次数"
+        flipCountLable.isHidden = false
         randomIDs = (0...characters.count-1).shuffled() //  再次乱序
         //  盖上所有牌
         for index in 0..<characters.count{
